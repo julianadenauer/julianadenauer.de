@@ -3,14 +3,15 @@
 
 body{
   font-size: 13px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
 nav {
   margin-top: 40px;
+  position: fixed;
 }
 
 nav ul {
-  position: fixed;
   padding: 0;
   z-index: 10;
 }
@@ -24,7 +25,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-weight: 300; 
+  /*font-weight: 300; */
 }
 
 nav ul li a.current{
@@ -33,7 +34,7 @@ nav ul li a.current{
 }
 
 .content {
-  margin-top: 120px;
+  margin-top: 160px;
 }
 
 .row {
