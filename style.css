@@ -56,6 +56,10 @@ a:hover{
   color: #333;
 }
 
+a:active, a:focus{
+  color: black;
+}
+
 p.post-categories a, .cat-item a {
   display: inline;
   padding: .2em .6em .3em;
